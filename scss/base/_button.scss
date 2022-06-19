@@ -1,0 +1,80 @@
+.banner__button {
+    margin-bottom: 70px;
+}
+
+.button {
+    font-family: $m-font-mono, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+
+    &__link {
+        text-transform: capitalize;
+        padding: 20px 40px;
+        background-color: $color-chartreuse;
+        color: $color-black;
+
+        &:hover {
+            background: rgb(57, 92, 44);
+            color: $color-white;
+        }
+    }
+
+    &__wave {
+        padding: 16px 32px;
+        color: $color-white;
+        border: 1px solid $color-chartreuse;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        &:hover {
+            border: 1px solid rgb(57, 92, 44);
+            background: rgb(57, 92, 44);
+            color: $color-white;
+        }
+    }
+
+    &__icon {
+        padding-left: 32px;
+    }
+
+    &__discord {
+        padding: 16px 32px 16px 10px;
+        color: $color-black;
+        text-transform: capitalize;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+}
+
+.join__button {
+    cursor: pointer;
+    width: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-chartreuse;
+    margin-bottom: 30px;
+
+    &:hover {
+        background: rgb(57, 92, 44);
+    }
+}
+
+@media (max-width: 599px) {
+    .button {
+        justify-content: center;
+    }
+
+    .banner__button {
+        margin-bottom: 30px;
+    }
+
+    .join__button {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}

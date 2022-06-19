@@ -1,0 +1,150 @@
+.roadmap {
+    position: relative;
+
+    &__picture {
+        width: 100vw;
+        margin-bottom: 120px;
+    }
+
+    &__circle {
+        position: absolute;
+        z-index: -1;
+
+        &_top {
+            top: 0;
+            left: 0;
+            padding-left: 20px;
+            margin-top: 130px;
+        }
+
+        &_center {
+            right: 0;
+            top: 32%;
+            padding-right: 20px;
+        }
+
+        &_bottom {
+            bottom: 0;
+            left: 0;
+            padding-left: 20px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 240px;
+    }
+
+    &__title {
+        font-family: $m-font-audio, sans-serif;
+        font-size: 38px;
+        line-height: 45.5px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    &__item {
+        width: 540px;
+        border: 1px solid $color-chartreuse;
+        background: $color-mine-shaft;
+        margin: 45px 0;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $color-chartreuse;
+    }
+
+    &__number {
+        padding: 8px 16px;
+        font-family: $m-font-mono, sans-serif;
+        font-size: 28px;
+        line-height: 28.5px;
+        border: 1px solid $color-chartreuse;
+        color: $color-chartreuse;
+        margin: 12px;
+
+        &_green {
+            color: $color-black;
+            background: $color-chartreuse;
+        }
+    }
+
+    &__phase {
+        font-family: $m-font-mono, sans-serif;
+        font-size: 8px;
+        line-height: 12px;
+        color: $color-chartreuse;
+        text-transform: uppercase;
+        text-align: start;
+    }
+
+    &__text {
+        font-family: $m-font-mono, sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+
+    &__line {
+        margin: auto;
+        height: 40px;
+        width: 1px;
+        border-left: 1px solid $color-chartreuse;
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 12px;
+
+    &__content {
+        width: 300px;
+    }
+
+    &__item {
+        margin-left: 22px;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        font-family: $m-font-inter sans-serif;
+        font-size: 11px;
+        line-height: 32px;
+    }
+
+    &__link {
+        color: $color-chartreuse;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:599px) {
+
+
+    .roadmap {
+        &__container {
+            padding: 0 10px;
+            padding-bottom: 100px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 40px;
+            padding-bottom: 25px;
+        }
+
+        &__item {
+            max-width: 560px;
+            width: 100%;
+        }
+    }
+}

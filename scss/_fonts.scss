@@ -1,0 +1,41 @@
+/* dm-mono-regular - latin */
+@font-face {
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/dm-mono-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/dm-mono-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/dm-mono-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/dm-mono-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/dm-mono-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/dm-mono-v10-latin-regular.svg#DMMono') format('svg'); /* Legacy iOS */
+}
+
+/* audiowide-regular - latin */
+@font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/audiowide-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/audiowide-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/audiowide-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/audiowide-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/audiowide-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/audiowide-v16-latin-regular.svg#Audiowide') format('svg'); /* Legacy iOS */
+}
+
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/inter-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/inter-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/inter-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/inter-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/inter-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/inter-v11-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}

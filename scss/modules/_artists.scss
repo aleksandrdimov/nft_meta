@@ -1,0 +1,68 @@
+.artists {
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 180px;
+    }
+
+    &__content {
+        padding: 0 15px;
+        margin-bottom: 60px;
+    }
+
+    &__name {
+        font-family: $m-font-mono, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+.anim {
+    &__title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+
+    &__text {
+        font-family: $m-font-audio, sans-serif;
+        font-size: 79px;
+        line-height: 88px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width:1024px) {
+    .content {
+        &__content {
+            margin-bottom: 30px;
+        }
+    }
+
+    .anim {
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        &__text {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+}
+
+@media (max-width:599px) {
+    .anim {
+
+        &__text:nth-of-type(2),
+        &__text:nth-of-type(3) {
+            display: none;
+        }
+    }
+}

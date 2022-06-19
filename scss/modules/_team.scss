@@ -1,0 +1,43 @@
+.team {
+    margin-bottom: 120px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        text-align: center;
+        width: 350px;
+        padding: 0 15px;
+    }
+
+    &__name {
+        font-family: $m-font-mono, sans-serif;
+        font-size: 21px;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin: 18px 0;
+    }
+
+    &__job-title {
+        font-family: $m-font-mono, sans-serif;
+        font-size: 11px;
+        line-height: 12px;
+        color: $color-chartreuse;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+
+    &__text {
+        margin: auto;
+        margin-top: 22px;
+        margin-bottom: 17px;
+        width: 240px;
+        font-family: $m-font-inter, sans-serif;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
